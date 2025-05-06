@@ -1,0 +1,12 @@
+# requirements.txt (place in the project root: zeru-compound-scoring/requirements.txt)
+# List the core Python libraries needed for the project.
+
+pandas
+numpy
+scikit-learn
+notebook # Required to run Jupyter notebooks
+
+
+matplotlib
+seaborn
+openpyxl # if we need to read/write Excel files

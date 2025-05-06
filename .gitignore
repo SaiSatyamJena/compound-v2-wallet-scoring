@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings specific to user/workspace (but keep .devcontainer files)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# Important: Un-ignore the .devcontainer directory itself if you want to share it
+!/.devcontainer/
+!/.devcontainer/*
+
+# Large Data Files - IMPORTANT for this project
+*.json
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Optional: Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
